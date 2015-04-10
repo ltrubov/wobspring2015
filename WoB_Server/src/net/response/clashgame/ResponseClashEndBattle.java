@@ -7,6 +7,7 @@ package net.response.clashgame;
 
 import metadata.NetworkCode;
 import net.response.GameResponse;
+import util.GamePacket;
 
 /**
  *
@@ -21,7 +22,8 @@ public class ResponseClashEndBattle extends GameResponse{
     
     @Override
     public byte[] getBytes() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        GamePacket packet = new GamePacket(response_id);
+        return packet.getBytes();
     }
     
 }
