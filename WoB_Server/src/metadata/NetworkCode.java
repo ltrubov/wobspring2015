@@ -70,6 +70,10 @@ public class NetworkCode {
     public final static short CONVERGE_HINT = 150;
     public final static short CONVERGE_HINT_COUNT = 151;
     public final static short CONVERGE_NEW_ATTEMPT_SCORE = 152;
+    
+    public final static short CLASH_ENTRY = 153;
+    public final static short CLASH_SPECIES_LIST = 154;
+    public final static short CLASH_DEFENSE_SETUP = 155;
 
     /**
      * Check for duplicate values, if any.

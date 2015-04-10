@@ -64,6 +64,10 @@ public class GameRequestTable {
         add(NetworkCode.CONVERGE_HINT, "convergegame.RequestConvergeHint");
         add(NetworkCode.CONVERGE_HINT_COUNT, "convergegame.RequestConvergeHintCount");
         add(NetworkCode.CONVERGE_NEW_ATTEMPT_SCORE, "convergegame.RequestConvergeNewAttemptScore");
+        
+        add(NetworkCode.CLASH_ENTRY, "clashgame.RequestClashEntry");
+        add(NetworkCode.CLASH_SPECIES_LIST, "clashgame.RequestClashSpeciesList");
+        add(NetworkCode.CLASH_DEFENSE_SETUP, "clashgame.RequestClashDefenseSetup");
 
         Log.println("Done!");
     }
