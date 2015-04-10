@@ -5,10 +5,23 @@
  */
 package net.response.clashgame;
 
+import metadata.NetworkCode;
+import net.response.GameResponse;
+
 /**
  *
  * @author lev
  */
-public class ResponseClashEndBattle {
+public class ResponseClashEndBattle extends GameResponse{
+    
+    
+    public ResponseClashEndBattle(){
+        response_id = NetworkCode.CLASH_END_BATTLE;
+    }
+    
+    @Override
+    public byte[] getBytes() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }

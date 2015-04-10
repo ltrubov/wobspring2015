@@ -5,10 +5,16 @@
  */
 package net.response.clashgame;
 
+import metadata.NetworkCode;
+import net.response.ResponsePlayers;
+
 /**
  *
  * @author lev
  */
-public class ResponseClashPlayerList {
+public class ResponseClashPlayerList extends ResponsePlayers{
+    public ResponseClashPlayerList(){
+        response_id = NetworkCode.CLASH_PLAYER_LIST;
+    }
     
 }
